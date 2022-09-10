@@ -14,7 +14,6 @@ const Home = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    // comentario para probar git
     dispatch(setPeople(dummyPeople));
   }, [dispatch]);
 
