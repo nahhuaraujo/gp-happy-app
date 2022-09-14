@@ -30,23 +30,6 @@ const PeopleTable = () => {
         </IconButton>
       ),
     },
-    // {
-    //   field: 'actions',
-    //   headerName: '',
-    //   sortable: false,
-    //   filterable: false,
-    //   disableColumnMenu: true,
-    //   width: 50,
-    //   renderCell: params => (
-    //     <Checkbox
-    //       size='small'
-    //       checked={personExists(params.row)}
-    //       onChange={() => {
-    //         handleCheckPerson(params.row);
-    //       }}
-    //     />
-    //   ),
-    // },
     { field: 'name', headerName: 'First name', flex: 1, renderCell: params => params.value },
     { field: 'surname', headerName: 'Surname', flex: 1, renderCell: params => params.value },
     { field: 'happiness', headerName: 'Happiness', flex: 1, renderCell: params => params.value },
